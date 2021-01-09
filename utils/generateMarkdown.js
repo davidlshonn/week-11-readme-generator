@@ -5,6 +5,14 @@ function generateMarkdown(data) {
   ## description
   
   ${data.description}
+
+  ## Installation Instructions
+
+  ${data.installation}
+
+  ## Usage Instructions
+
+  ${data.usage}
 `;
 }
 
