@@ -35,7 +35,7 @@ const questions = [
 },
 {
     type:"input",
-    name:"contribting",
+    name:"contributing",
     message:"If applicable, provide guidelines on how other developers can contribute to your project."
 },
 {

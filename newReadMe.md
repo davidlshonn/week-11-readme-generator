@@ -1,8 +1,8 @@
-# readMe Generator
+# Project Title
 
 ## Description
   
-  n/a
+  Project Description
 
   ### Table of Contents
 * [Installation](#Installation)
@@ -16,26 +16,32 @@
   
 ## Installation Instructions
 
-  n/a
+  
 
 ## Usage Instructions
 
-  n/a
+  
 
 ## License
 
-  Mozilla Public License 2.0
+  GNU AGPLv3
 
 ## Contributing
 
-  undefined
+  
 
 ## Tests
 
-  n/a
+  
 
 ## Questions
 
-  n/a
-  n/a
-  n/a
+  
+
+### GitHub
+
+  
+
+### Email
+
+  
