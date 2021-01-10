@@ -13,6 +13,14 @@ function generateMarkdown(data) {
   ## Usage Instructions
 
   ${data.usage}
+
+  ## Licence
+
+  ${data.licence}
+
+  ## Contributing
+
+  ${data.contributing}
 `;
 }
 

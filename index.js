@@ -25,6 +25,11 @@ const questions = [
     name:"usage",
     message:"How do I use this project?"
 }
+{
+    type:"input",
+    name:"licence",
+    message:"What licences are there for this project?"
+}
 ];
 
 // function to write README file
