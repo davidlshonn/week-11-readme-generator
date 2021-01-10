@@ -30,6 +30,7 @@ const questions = [
     name:"licence",
     message:"What licences are there for this project?"
 }
+
 ];
 
 // function to write README file

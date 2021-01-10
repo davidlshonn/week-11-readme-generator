@@ -18,9 +18,6 @@ function generateMarkdown(data) {
 
   ${data.licence}
 
-  ## Contributing
-
-  ${data.contributing}
 `;
 }
 
