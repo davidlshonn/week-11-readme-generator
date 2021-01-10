@@ -21,6 +21,10 @@ function generateMarkdown(data) {
   ## Contributing
 
   ${data.contributing}
+
+  ## Tests
+
+  ${data.tests}
 `;
 }
 
