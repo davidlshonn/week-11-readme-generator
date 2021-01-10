@@ -40,6 +40,11 @@ const questions = [
     name:"tests",
     message:"What tests are there for this project?"
 }
+{
+    type:"input",
+    name:"questions",
+    message:"What questions are there relating to this project?"
+}
 ];
 
 // function to write README file
