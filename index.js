@@ -8,43 +8,56 @@ const questions = [
 {
     type:"input",
     name:"title",
-    message:"What is the title of your application?"
+    default:"Project Title",
+    message:"What is the title of your project?"
 },
 {
     type:"input",
     name:"description",
-    message:"What is the description of your application?"
+    default:"Project Description",
+    message:"Write a description of your project."
 },
 {
     type:"input",
     name:"installation",
-    message:"How do I install this project?"
+    message:"If applicable, describe the steps required to install your project."
 },
 {
     type:"input",
     name:"usage",
-    message:"How do I use this project?"
-}
+    message:"Provide instructions and examples of your project in use."
+},
 {
-    type:"input",
-    name:"licence",
-    message:"What licences are there for this project?"
-}
+    type: 'list',
+    message: "Choose a license for your project.",
+    choices: ['GNU AGPLv3', 'GNU GPLv3', 'GNU LGPLv3', 'Mozilla Public License 2.0', 'Apache License 2.0', 'MIT License', 'Boost Software License 1.0', 'The Unlicense'],
+    name: 'license'
+},
 {
     type:"input",
     name:"contribting",
-    message:"Who has contributed toward this project?"
-}
+    message:"If applicable, provide guidelines on how other developers can contribute to your project."
+},
 {
     type:"input",
     name:"tests",
-    message:"What tests are there for this project?"
-}
+    message:"If applicable, provide any tests written for your application and provide examples on how to run them."
+},
 {
     type:"input",
     name:"questions",
     message:"What questions are there relating to this project?"
-}
+},
+{
+    type:"input",
+    name:"github",
+    message:"Please state your github username."
+},
+{
+    type:"input",
+    name:"email",
+    message:"Please state your email address."
+},
 ];
 
 // function to write README file
