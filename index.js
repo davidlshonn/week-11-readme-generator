@@ -30,7 +30,11 @@ const questions = [
     name:"licence",
     message:"What licences are there for this project?"
 }
-
+{
+    type:"input",
+    name:"contribting",
+    message:"Who has contributed toward this project?"
+}
 ];
 
 // function to write README file
